@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #B6CEC7;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li{
+    display:inline;
+    padding-right:20px;
+  }
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+}
+    
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+ }
+
+ #current-page{
+  color: black;
+  text-decoration: dotted underline;
+}
+
+nav{
+    background-color: #B6CEC7;
+    padding: 25px 0; 
+    text-align: right;
+    border-bottom: 1px solid #333333;
+  }
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: left;
+  }
+
+.resume-link {
+  font-size: 30px;
+  text-align: right; 
+}
+
+h1 a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #333333;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1;
+    text-align: left;
+    background-color: #86A3C3 ;
+    padding: 10px ;
+    border: 1px solid white ;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 1;
+    text-align: left;
+}
+
+header p{
+    color: black;
+    font-size: 24px;
+    padding: 0 100px;
+    text-align: left;
+  }
+h2 p{
+  color: black;
+  font-size: 50px;
+  text-align: left;
+}
+
+.header-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
+}
+
+.name-header{
+  text-align: left;
+  font-size: 36px;
+}
+
+.navigation{
+  text-align: right;
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  align-content: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+
+.footer-container{
+  /*Your Code Here*/
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  /* grid-template-rows: auto; */
+  grid-row-gap: 15px;
+  grid-auto-flow: row;
+  align-items: center;
+  align-content: center;
+}
+
+.contact-info{
+  color: white;
+  /* text-align: left; */
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.name {
+  color:white;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 35px;
+}
+div a {
+  color:white;
+  text-decoration: none;
+}
+.account-links{
+  color: white;
+  /* text-align: right; */
+  text-decoration: underline;
+  padding: 10px;
+}
+
+/* fix thsi to be different */
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: relative;
+    top: -40px;
+  }
+  
+.skip a:focus{
+    top: 0px;
+  }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-flow: row wrap;
+    align-items: center;
+    
+  }
+  
+.flex-item {
+    width: 25em;
+    height: 1fr;
+    overflow: hidden;    
+  }
+  
+.flex-item:hover {
+  filter: grayscale(100%);
+  filter: blur(3px);
+}
+
+
+
+
+/* Tablet Mode
+@media all and (min-width: 600px){
+
+}
+
+/* Desktop Mode  */
+/* @media all and (min-width: 800px){
+
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+
+} */
